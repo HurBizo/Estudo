@@ -4,35 +4,31 @@
 	
 	$op = $_GET ['op'];
 	
-	$soma = n1 + n2;
-	$mult = n1 * n2;
-	$div = n1 / n2;
-	$sub = n1 - n2;
-	
-	
+		
 	switch(op){
 		case 'Somar':
+			$soma = n1 + n2;
 			echo"$soma";
 			
 			break;
 			
 		case 'Multiplicar':
+			$mult = n1 * n2;
 			echo"$mult";
 			
 			break;
 			
 		case 'Dividir':
+			$div = n1 / n2;
 			echo"$div";
 			
 			break;
 			
 		case 'Subtrair':
+			$sub = n1 - n2;
 			echo"$sub";
 			
 			break;
 		default:
 	}
-
-
-
-?>>
+?>
