@@ -3,9 +3,9 @@ $usuario = $_POST ['usuario'];
 $senha = $_POST ['senha'];
 
 $user = administrador;
-$senha = 1234;
+$senha1 = 1234;
 
-if($usuario == $user){
+if($usuario == $user && $senha == $senha1){
 	echo "Olá marilene! ";
 }else{
 	echo "Login inválido";
