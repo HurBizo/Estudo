@@ -7,14 +7,12 @@
 	
 	$nota = ($nota1 + $nota2 + $nota3) / 3;
 	
-	if($nota < 5 && $frequencia < 75){
+	if($nota < 5 OR $frequencia < 75){
 		echo"Reprovado";
-	}else if($nota < 7 && $frequencia < 75){
+	}else if($nota < 7){
 		echo"Recuperação";
-	}else if($nota >= 7 && $frequencia < 75){
+	}else if($nota >= 7){
 		echo"Aprovado";
-	}else{
-			echo" Reprovado !" ;
 	}
 
 
