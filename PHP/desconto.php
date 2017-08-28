@@ -11,7 +11,7 @@
             
         $total = $compra - $desconto;
             
-        echo "<h2>". "Olá $nome, sua compra de R$ $compra$osma sofreu desconto de R$$desconto$osma!"."</h2>" "<br/>";
+        echo "<h2>" . "Olá $nome, sua compra de R$ $compra$osma sofreu desconto de R$$desconto$osma!" ."</h2>" . "<br/>";
             
         echo"<h1>O valor da compra será: R$$total$osma !</h1>";
             
@@ -20,7 +20,7 @@
             
         $total = $compra - $desconto;
             
-        echo "<h2>". "Olá $nome, sua compra de R$ $compra$osma sofreu desconto de R$$desconto$osma!"."</h2>" "<br/>";
+        echo "<h2>". "Olá $nome, sua compra de R$ $compra$osma sofreu desconto de R$$desconto$osma!"."</h2>" . "<br/>";
             
         echo"<h1>O valor da compra será: R$$total$osma !</h1>";
             
@@ -30,9 +30,9 @@
             
         $total = $compra - $desconto;
             
-         echo "<h2>". "Olá $nome, sua compra de R$ $compra$osma sofreu desconto de R$$desconto$osma!"."</h2>" "<br/>";
+         echo "<h2>". "Olá $nome, sua compra de R$ $compra$osma sofreu desconto de R$$desconto$osma!"."</h2>" . "<br/>";
             
-        echo"<h1>O valor da compra será: R$$total$osma !</h1>";
+        echo"<h1>" . "O valor da compra será: R$$total$osma !" . "</h1>";
             
       }
 ?>
