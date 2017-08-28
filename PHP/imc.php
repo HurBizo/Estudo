@@ -1,7 +1,7 @@
 <?php
 
-  $alto = @_GET ['altura'];
-	$pes = @_GET ['peso'];
+  	$alto = $_GET ['altura'];
+	$pes = $_GET ['peso'];
 	
 	$peso = pes / (alto * alto);
 	
