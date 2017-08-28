@@ -1,5 +1,5 @@
 <?php
-      $nome = &_POST ['nome'];
+      $nome = $_POST ['nome'];
       $compra = $_POST ['compra'];
       
       $total = $compra - $desconto;
