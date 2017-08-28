@@ -1,9 +1,9 @@
 <?php
 	$frequencia = @_GET ['frequencia'];
 	
-	$nota1 = @_GET ['nota1'];
-	$nota2 = @_GET ['nota2'];
-	$nota3 = @_GET ['nota3'];
+	$nota1 = $_GET ['nota1'];
+	$nota2 = $_GET ['nota2'];
+	$nota3 = $_GET ['nota3'];
 	
 	$nota = ($nota1 + $nota2 + $nota3) / 3;
 	
