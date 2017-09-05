@@ -31,19 +31,19 @@
 			break;
 			
 		case 'RaizQuadrada':
-			$raiz = sqrt($v1);
+			$raiz = sqrt($n1);
 			echo"$raiz";
 			
 			break;
 				
 		case 'Exponenciacao':
-			$exponen = pow($v1, $v2);
+			$exponen = pow($n1, $n2);
 			echo"exponen";
 			
 			break;
 		
 		case 'Resto':
-			$resto = $v1 % $v2;
+			$resto = $n1 % $n2;
 			echo"resto";
 			
 			break;
