@@ -1,10 +1,11 @@
+
 package pct;
 
 public class Data {
     // atributo
     private int dia;
-    int ano;
-    int mes;
+    private int ano;
+    private int mes;
     
     //Métodos
     
@@ -21,8 +22,31 @@ public class Data {
         }
         
     }
+    public void setMes(int mes){
+        if(mes >= 1 && mes <=12){
+            this.mes = mes;
+        }else{
+            System.out.println("Digite um dia válido!");
+            this.dia = 03;
+        }
+    }
+    public void setAno(int ano){
+        if(ano <= 2017){
+            this.ano = ano;
+        }else{
+            System.out.println("Digite o anoa atual ou inferior!");
+            this.ano = 2012;
+        }
+    }
     
     public int getDia(){
         return this.dia;
     }
+    public int getMes(){
+        return this.dia;
+    }
+    public int getAno(){
+        return this.dia;
+    }
 }
+
