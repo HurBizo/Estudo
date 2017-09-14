@@ -1,4 +1,3 @@
-
 package pct;
 
 public class Data {
@@ -14,6 +13,16 @@ public class Data {
        
     }
     public void setDia(int dia){
-        this.dia = dia;
+        if(dia >= 1 && dia <=31){
+            this.dia = dia;
+        }else{
+            System.out.println("Digite um dia válido!");
+            this.dia = 1;
+        }
+        
+    }
+    
+    public int getDia(){
+        return this.dia;
     }
 }
